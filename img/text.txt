@@ -11,8 +11,7 @@ Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet conse
 Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.
 
 Pariatur voluptatibus quidem consequatur harum, voluptatum mollitia quae.
-
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!
 
 --- Stories
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!

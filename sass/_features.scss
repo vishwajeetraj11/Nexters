@@ -1,4 +1,32 @@
 .features {
-    background-color: blue;
     grid-column: center-start / center-end;
+
+    margin: 15rem 0;
+
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 6rem;
+    align-items: start;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: min-content 1fr; // 1st column the size of the icon  -- 1nd column the remaining space
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem;
+    fill: $color-primary;
+
+    &__icon {
+        width: 4.5rem;
+        height: 4.5rem;
+       // grid-row: 1 / -1 ; // this would mean last row , but we didn't define any grid rows. there is not really a explicit grid.
+       // -1 only works with an explicit grid.
+        grid-row: 1 / span 2 ;
+        transform: translateY(-1rem);
+    }
+
+    &__text {
+        font-size: 1.7rem;
+    }
 }
