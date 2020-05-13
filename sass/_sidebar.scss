@@ -2,6 +2,11 @@
     background-color: $color-primary;
     grid-column: sidebar-start / sidebar-end;
     grid-row: 1 / -1;
+
+    @media only screen and (max-width: $bp-large) {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    }
 }
 
 .nav-btn {
@@ -14,6 +19,10 @@
     height: 2px;
     margin-top: 2rem;
     // border-radius: 10%;
+    @media only screen and (max-width: $bp-large) {
+        width: 4%;
+        margin: 2% 1% ;
+    }
 
     &::before, &::after {
     content: "";
