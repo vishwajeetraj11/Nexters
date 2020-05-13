@@ -3,3 +3,39 @@
     grid-column: sidebar-start / sidebar-end;
     grid-row: 1 / -1;
 }
+
+.nav-btn {
+    border: none;
+    border-radius: 0;
+    
+    background-color: #fff;
+    width: 60%;
+    margin: 0 20%;
+    height: 2px;
+    margin-top: 2rem;
+    // border-radius: 10%;
+
+    &::before, &::after {
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    margin-top: 1rem;
+    display: block;
+    // margin: 0 20%;
+    height: 2px;
+    // margin-top: 1rem;
+    }
+
+    &::after{
+        margin-top: 0.7rem;
+    }
+}
+
+//  :before {
+//     content: "";
+//     background-color: #fff;
+//     width: 60%;
+//     margin: 0 20%;
+//     height: 4px;
+//     margin-top: 1rem;
+// }
